@@ -7,6 +7,10 @@ body {
     background-image: url(img/IMG-20250101-WA0087.jpg);
     background-position: center top;
     background-size: 100% auto;
+    font-family: KGMidnight;
+    font-weight: bold;
+    font-size: larger;
+
 }
 
 .text {
@@ -18,9 +22,6 @@ body {
 
 p {
     color: ghostwhite;
-    font-family: KGMidnight;
-    font-weight: bold;
-    font-size: larger;
 }
 
 .galery {
@@ -34,5 +35,18 @@ img {
     border-color: black;
     border-width: 0.8vw;
     border-style: groove;
-    width: 20vw;
+    width: 25vw;
+}
+
+.music {
+    display: grid;
+    place-items: center;
+    margin: 3vw;
+}
+
+iframe {
+    width: 50vw;
+    height: 25vw;
+    border-radius: 2vw;
+    border: none;
 }
