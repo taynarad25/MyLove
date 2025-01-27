@@ -41,7 +41,6 @@ img {
 .music {
     display: grid;
     place-items: center;
-    margin: 3vw;
 }
 
 iframe {
