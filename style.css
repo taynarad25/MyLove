@@ -44,9 +44,33 @@ img {
     margin: 2vw 0vw;
 }
 
+
 iframe {
-    width: 90vw;
-    height: 45vw;
     border-radius: 2vw;
     border: none;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    iframe {
+        width: 90vw;
+        height: 45vw;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    iframe {
+        width: 65vw;
+        height: 35vw;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    iframe {
+        width: 45vw;
+        height: 25vw;
+    }
 }
